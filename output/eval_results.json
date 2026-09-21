@@ -1,0 +1,101 @@
+{
+  "top_1_precision": 1.0,
+  "correct": 10,
+  "total_scorable": 10,
+  "case_results": [
+    {
+      "post_id": "post-1",
+      "post_title": "The behavior of red foxes",
+      "expected_category": "fox",
+      "result": "accepted",
+      "matched_image": "red-fox_10.jpg",
+      "correct": true
+    },
+    {
+      "post_id": "post-2",
+      "post_title": "Living with wolves in Yellowstone",
+      "expected_category": "wolf",
+      "result": "accepted",
+      "matched_image": "wolf_7.jpg",
+      "correct": true
+    },
+    {
+      "post_id": "post-3",
+      "post_title": "Choosing the right dog breed for your family",
+      "expected_category": "dog",
+      "result": "accepted",
+      "matched_image": "dog_4.jpg",
+      "correct": true
+    },
+    {
+      "post_id": "post-4",
+      "post_title": "Black bears and human encounters",
+      "expected_category": "bear",
+      "result": "accepted",
+      "matched_image": "bear_8.jpg",
+      "correct": true
+    },
+    {
+      "post_id": "post-5",
+      "post_title": "Deer populations in suburban areas",
+      "expected_category": "deer",
+      "result": "accepted",
+      "matched_image": "deer_4.jpg",
+      "correct": true
+    },
+    {
+      "post_id": "post-6",
+      "post_title": "Vulpes vulpes: the scientific study of foxes",
+      "expected_category": "fox",
+      "result": "accepted",
+      "matched_image": "red-fox_6.jpg",
+      "correct": true
+    },
+    {
+      "post_id": "post-7",
+      "post_title": "Understanding pack hierarchy in wild canines",
+      "expected_category": "wolf",
+      "result": "accepted",
+      "matched_image": "wolf_7.jpg",
+      "correct": true
+    },
+    {
+      "post_id": "post-8",
+      "post_title": "Training puppies: the first six months",
+      "expected_category": "dog",
+      "result": "accepted",
+      "matched_image": "dog_10.jpg",
+      "correct": true
+    },
+    {
+      "post_id": "post-9",
+      "post_title": "Grizzly bears and salmon migration",
+      "expected_category": "bear",
+      "result": "accepted",
+      "matched_image": "bear_8.jpg",
+      "correct": true
+    },
+    {
+      "post_id": "post-10",
+      "post_title": "Antler growth cycles in male deer",
+      "expected_category": "deer",
+      "result": "accepted",
+      "matched_image": "deer_10.jpg",
+      "correct": true
+    }
+  ],
+  "no_match_cases": [
+    {
+      "post_id": "post-11",
+      "post_title": "General tips for responsible pet ownership",
+      "result": "no_confident_match",
+      "correctly_refused": true
+    },
+    {
+      "post_id": "post-12",
+      "post_title": "The lifecycle of the monarch butterfly",
+      "result": "no_confident_match",
+      "correctly_refused": true
+    }
+  ]
+}
