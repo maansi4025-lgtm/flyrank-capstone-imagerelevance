@@ -1,0 +1,74 @@
+[
+  {
+    "id": "post-1",
+    "title": "The behavior of red foxes",
+    "body": "Red foxes are highly adaptable animals found across forests, grasslands, and even urban areas. Known for their reddish-orange fur and bushy tails, they are primarily nocturnal hunters that feed on small rodents, birds, and insects. Their keen sense of hearing allows them to detect prey moving under snow.",
+    "expected_category": "fox"
+  },
+  {
+    "id": "post-2",
+    "title": "Living with wolves in Yellowstone",
+    "body": "The reintroduction of gray wolves to Yellowstone National Park in 1995 remains one of the most studied wildlife conservation efforts in history. Wolves live and hunt in coordinated packs, and their return dramatically reshaped the park's ecosystem by controlling elk populations.",
+    "expected_category": "wolf"
+  },
+  {
+    "id": "post-3",
+    "title": "Choosing the right dog breed for your family",
+    "body": "Picking a dog breed depends heavily on your lifestyle, living space, and activity level. Some breeds are calm and suited to apartment living, while others need daily exercise and a yard to run in. Puppies especially require consistent training and socialization early on.",
+    "expected_category": "dog"
+  },
+  {
+    "id": "post-4",
+    "title": "Black bears and human encounters",
+    "body": "Black bears are common across North American forests and are generally shy around humans, though they can become bold near campsites with accessible food. Understanding bear behavior, including how to store food properly while hiking, is essential for safe coexistence.",
+    "expected_category": "bear"
+  },
+  {
+    "id": "post-5",
+    "title": "Deer populations in suburban areas",
+    "body": "As natural habitats shrink, deer have increasingly adapted to life in suburban neighborhoods, often grazing on gardens and landscaping. Their population growth in these areas has led to more frequent vehicle collisions and ecological imbalance in local plant life.",
+    "expected_category": "deer"
+  },
+  {
+    "id": "post-6",
+    "title": "Vulpes vulpes: the scientific study of foxes",
+    "body": "Vulpes vulpes, commonly known as the red fox, is the most widely distributed member of the Carnivora order. Researchers studying this species focus on its remarkable adaptability across climates, from Arctic tundra to dense urban centers.",
+    "expected_category": "fox"
+  },
+  {
+    "id": "post-7",
+    "title": "Understanding pack hierarchy in wild canines",
+    "body": "Wild wolf packs operate on a complex social structure led by a breeding pair, often referred to as the alpha male and female. Every member plays a role in hunting, pup-rearing, and defending territory from rival packs.",
+    "expected_category": "wolf"
+  },
+  {
+    "id": "post-8",
+    "title": "Training puppies: the first six months",
+    "body": "The first six months of a puppy's life are critical for behavioral development. Consistent house-training, basic obedience commands, and positive reinforcement during this window set the foundation for a well-adjusted adult dog.",
+    "expected_category": "dog"
+  },
+  {
+    "id": "post-9",
+    "title": "Grizzly bears and salmon migration",
+    "body": "Every autumn, grizzly bears gather along rivers in the Pacific Northwest to feast on migrating salmon, building up fat reserves essential for winter hibernation. This seasonal feeding pattern is one of nature's most dramatic wildlife spectacles.",
+    "expected_category": "bear"
+  },
+  {
+    "id": "post-10",
+    "title": "Antler growth cycles in male deer",
+    "body": "Male deer shed and regrow their antlers annually, a process driven by seasonal changes in testosterone. Antlers begin as soft, blood-rich tissue called velvet before hardening into the bony structures used during the fall mating season.",
+    "expected_category": "deer"
+  },
+  {
+    "id": "post-11",
+    "title": "General tips for responsible pet ownership",
+    "body": "Owning any pet comes with responsibilities: regular veterinary checkups, proper nutrition, a safe living environment, and daily attention to their wellbeing. Whatever animal you bring into your home, understanding its specific needs is essential.",
+    "expected_category": null
+  },
+  {
+    "id": "post-12",
+    "title": "The lifecycle of the monarch butterfly",
+    "body": "Monarch butterflies undergo a remarkable transformation from egg to caterpillar to chrysalis to adult butterfly, all within about a month. Their annual migration spans thousands of miles between North America and central Mexico.",
+    "expected_category": null
+  }
+]
