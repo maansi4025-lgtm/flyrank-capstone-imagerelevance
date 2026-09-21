@@ -1,0 +1,785 @@
+[
+  {
+    "filename": "bear_1.jpg",
+    "status": "tagged",
+    "tags": {
+      "subject": "bear",
+      "category": "bear",
+      "attributes": [
+        "black",
+        "swimming",
+        "water",
+        "large"
+      ],
+      "caption": "A black bear swimming in a river",
+      "confidence": 0.9
+    }
+  },
+  {
+    "filename": "bear_10.jpg",
+    "status": "tagged",
+    "tags": {
+      "subject": "bear",
+      "category": "bear",
+      "attributes": [
+        "brown",
+        "standing",
+        "grassy field",
+        "large"
+      ],
+      "caption": "Two bears in a field",
+      "confidence": 0.9
+    }
+  },
+  {
+    "filename": "bear_2.jpg",
+    "status": "tagged",
+    "tags": {
+      "subject": "bear",
+      "category": "bear",
+      "attributes": [
+        "color: brown",
+        "pose: lying down",
+        "setting: forest",
+        "size: large"
+      ],
+      "caption": "A brown bear lying down in a forest",
+      "confidence": 0.9
+    }
+  },
+  {
+    "filename": "bear_3.jpg",
+    "status": "tagged",
+    "tags": {
+      "subject": "bear",
+      "category": "bear",
+      "attributes": [
+        "brown",
+        "standing",
+        "outdoors",
+        "large"
+      ],
+      "caption": "Two bears on a hillside",
+      "confidence": 0.9
+    }
+  },
+  {
+    "filename": "bear_4.jpg",
+    "status": "tagged",
+    "tags": {
+      "subject": "bear",
+      "category": "bear",
+      "attributes": [
+        "large",
+        "sitting",
+        "outdoors"
+      ],
+      "caption": "A large brown bear sitting on a stone wall outdoors",
+      "confidence": 0.9
+    }
+  },
+  {
+    "filename": "bear_5.jpg",
+    "status": "tagged",
+    "tags": {
+      "subject": "bear",
+      "category": "bear",
+      "attributes": [
+        "brown",
+        "standing",
+        "wooded area",
+        "large"
+      ],
+      "caption": "A large brown bear standing in a wooded area",
+      "confidence": 0.9
+    }
+  },
+  {
+    "filename": "bear_6.jpg",
+    "status": "tagged",
+    "tags": {
+      "subject": "bear",
+      "category": "bear",
+      "attributes": [
+        "black",
+        "standing",
+        "outdoors",
+        "large"
+      ],
+      "caption": "A black bear standing on a rocky outcropping",
+      "confidence": 0.9
+    }
+  },
+  {
+    "filename": "bear_7.jpg",
+    "status": "tagged",
+    "tags": {
+      "subject": "bear",
+      "category": "bear",
+      "attributes": [
+        "brown",
+        "laying",
+        "outdoors",
+        "large"
+      ],
+      "caption": "A brown bear laying on a rocky surface in the wilderness",
+      "confidence": 0.9
+    }
+  },
+  {
+    "filename": "bear_8.jpg",
+    "status": "tagged",
+    "tags": {
+      "subject": "bear",
+      "category": "bear",
+      "attributes": [
+        "brown",
+        "standing",
+        "forest",
+        "large"
+      ],
+      "caption": "A brown bear in a forested area",
+      "confidence": 0.9
+    }
+  },
+  {
+    "filename": "bear_9.jpg",
+    "status": "tagged",
+    "tags": {
+      "subject": "bear",
+      "category": "bear",
+      "attributes": [
+        "brown",
+        "standing",
+        "outdoors",
+        "large"
+      ],
+      "caption": "A brown bear standing on a tree branch",
+      "confidence": 0.9
+    }
+  },
+  {
+    "filename": "deer_1.jpg",
+    "status": "tagged",
+    "tags": {
+      "subject": "deer",
+      "category": "deer",
+      "attributes": [
+        "color: brown",
+        "pose: standing",
+        "setting: forest",
+        "size: small"
+      ],
+      "caption": "Two deer standing in a forest",
+      "confidence": 0.9
+    }
+  },
+  {
+    "filename": "deer_10.jpg",
+    "status": "tagged",
+    "tags": {
+      "subject": "deer",
+      "category": "deer",
+      "attributes": [
+        "white",
+        "standing",
+        "wooded area",
+        "small"
+      ],
+      "caption": "Two deer in a field",
+      "confidence": 0.9
+    }
+  },
+  {
+    "filename": "deer_2.jpg",
+    "status": "tagged",
+    "tags": {
+      "subject": "deer",
+      "category": "deer",
+      "attributes": [
+        "night",
+        "standing",
+        "forest",
+        "small"
+      ],
+      "caption": "A deer standing in a forest at night",
+      "confidence": 0.9
+    }
+  },
+  {
+    "filename": "deer_3.jpg",
+    "status": "tagged",
+    "tags": {
+      "subject": "deer",
+      "category": "deer",
+      "attributes": [
+        "close-up",
+        "dark",
+        "forest"
+      ],
+      "caption": "A close-up of a deer in a dark forest setting.",
+      "confidence": 0.9
+    }
+  },
+  {
+    "filename": "deer_4.jpg",
+    "status": "tagged",
+    "tags": {
+      "subject": "deer",
+      "category": "deer",
+      "attributes": [
+        "color: brown",
+        "pose: standing",
+        "setting: park",
+        "size: small"
+      ],
+      "caption": "A group of deer in a park",
+      "confidence": 0.9
+    }
+  },
+  {
+    "filename": "deer_5.jpg",
+    "status": "flagged",
+    "tags": null
+  },
+  {
+    "filename": "deer_6.jpg",
+    "status": "tagged",
+    "tags": {
+      "subject": "deer",
+      "category": "deer",
+      "attributes": [
+        "brown",
+        "standing",
+        "outdoors",
+        "large"
+      ],
+      "caption": "Two deer in a field",
+      "confidence": 0.9
+    }
+  },
+  {
+    "filename": "deer_7.jpg",
+    "status": "tagged",
+    "tags": {
+      "subject": "deer",
+      "category": "deer",
+      "attributes": [
+        "brown",
+        "standing",
+        "wooded",
+        "two"
+      ],
+      "caption": "Two deer in a wooded area",
+      "confidence": 0.9
+    }
+  },
+  {
+    "filename": "deer_8.jpg",
+    "status": "tagged",
+    "tags": {
+      "subject": "deer",
+      "category": "deer",
+      "attributes": [
+        "brown",
+        "running",
+        "outdoors",
+        "small"
+      ],
+      "caption": "A group of deer running in a field",
+      "confidence": 0.9
+    }
+  },
+  {
+    "filename": "deer_9.jpg",
+    "status": "tagged",
+    "tags": {
+      "subject": "deer",
+      "category": "deer",
+      "attributes": [
+        "brown",
+        "antlers",
+        "standing",
+        "outdoors"
+      ],
+      "caption": "Two deer standing in a field",
+      "confidence": 0.9
+    }
+  },
+  {
+    "filename": "dog_1.jpg",
+    "status": "tagged",
+    "tags": {
+      "subject": "dog",
+      "category": "dog",
+      "attributes": [
+        "white",
+        "large",
+        "outdoors"
+      ],
+      "caption": "A large white dog with its mouth open, possibly barking or growling, in an outdoor setting.",
+      "confidence": 0.9
+    }
+  },
+  {
+    "filename": "dog_10.jpg",
+    "status": "tagged",
+    "tags": {
+      "subject": "dog",
+      "category": "dog",
+      "attributes": [
+        "brown",
+        "sitting",
+        "outdoors",
+        "small"
+      ],
+      "caption": "Two puppies sitting on the ground",
+      "confidence": 0.9
+    }
+  },
+  {
+    "filename": "dog_2.jpg",
+    "status": "tagged",
+    "tags": {
+      "subject": "dog",
+      "category": "dog",
+      "attributes": [
+        "black and white",
+        "standing",
+        "outdoors",
+        "large"
+      ],
+      "caption": "A dog standing on dirt",
+      "confidence": 0.9
+    }
+  },
+  {
+    "filename": "dog_3.jpg",
+    "status": "tagged",
+    "tags": {
+      "subject": "dog",
+      "category": "dog",
+      "attributes": [
+        "brown",
+        "sitting",
+        "outdoor",
+        "small"
+      ],
+      "caption": "A small brown dog sitting on the sidewalk",
+      "confidence": 0.9
+    }
+  },
+  {
+    "filename": "dog_4.jpg",
+    "status": "tagged",
+    "tags": {
+      "subject": "dog",
+      "category": "dog",
+      "attributes": [
+        "black and white",
+        "sitting",
+        "outdoor",
+        "large"
+      ],
+      "caption": "A dog and a dog",
+      "confidence": 0.9
+    }
+  },
+  {
+    "filename": "dog_5.jpg",
+    "status": "tagged",
+    "tags": {
+      "subject": "dog",
+      "category": "dog",
+      "attributes": [
+        "brown and white",
+        "playing",
+        "grass",
+        "outdoors"
+      ],
+      "caption": "Two dogs playing in the grass",
+      "confidence": 0.9
+    }
+  },
+  {
+    "filename": "dog_6.jpg",
+    "status": "tagged",
+    "tags": {
+      "subject": "dog",
+      "category": "dog",
+      "attributes": [
+        "small",
+        "white",
+        "sitting"
+      ],
+      "caption": "A small white dog sitting in a room",
+      "confidence": 0.9
+    }
+  },
+  {
+    "filename": "dog_7.jpg",
+    "status": "tagged",
+    "tags": {
+      "subject": "puppy",
+      "category": "dog",
+      "attributes": [
+        "small",
+        "sitting",
+        "outdoors",
+        "alone"
+      ],
+      "caption": "A small puppy sitting alone in the outdoors",
+      "confidence": 0.9
+    }
+  },
+  {
+    "filename": "dog_8.jpg",
+    "status": "tagged",
+    "tags": {
+      "subject": "dog",
+      "category": "dog",
+      "attributes": [
+        "small",
+        "black and white",
+        "outdoors"
+      ],
+      "caption": "Two small dogs standing on a ledge",
+      "confidence": 0.9
+    }
+  },
+  {
+    "filename": "dog_9.jpg",
+    "status": "tagged",
+    "tags": {
+      "subject": "dog",
+      "category": "dog",
+      "attributes": [
+        "puppy",
+        "sitting",
+        "outdoors",
+        "small"
+      ],
+      "caption": "A puppy sitting next to an adult dog in an outdoor setting",
+      "confidence": 0.9
+    }
+  },
+  {
+    "filename": "red-fox_1.jpg",
+    "status": "tagged",
+    "tags": {
+      "subject": "fox",
+      "category": "fox",
+      "attributes": [
+        "brown",
+        "sitting",
+        "grass",
+        "small"
+      ],
+      "caption": "A small brown fox sitting in the grass",
+      "confidence": 0.9
+    }
+  },
+  {
+    "filename": "red-fox_10.jpg",
+    "status": "tagged",
+    "tags": {
+      "subject": "fox",
+      "category": "fox",
+      "attributes": [
+        "red",
+        "standing",
+        "outdoors",
+        "small"
+      ],
+      "caption": "A red fox standing in a fenced area",
+      "confidence": 0.9
+    }
+  },
+  {
+    "filename": "red-fox_2.jpg",
+    "status": "tagged",
+    "tags": {
+      "subject": "fox",
+      "category": "fox",
+      "attributes": [
+        "brown",
+        "sitting",
+        "grassy field",
+        "small"
+      ],
+      "caption": "A fox sitting in a grassy field",
+      "confidence": 0.9
+    }
+  },
+  {
+    "filename": "red-fox_3.jpg",
+    "status": "tagged",
+    "tags": {
+      "subject": "fox",
+      "category": "fox",
+      "attributes": [
+        "brown",
+        "alert",
+        "outdoors",
+        "small"
+      ],
+      "caption": "A fox looking directly at the camera",
+      "confidence": 0.9
+    }
+  },
+  {
+    "filename": "red-fox_4.jpg",
+    "status": "tagged",
+    "tags": {
+      "subject": "fox",
+      "category": "fox",
+      "attributes": [
+        "orange",
+        "sitting",
+        "snow",
+        "large"
+      ],
+      "caption": "A fox sitting on a rock in the snow",
+      "confidence": 0.9
+    }
+  },
+  {
+    "filename": "red-fox_5.jpg",
+    "status": "tagged",
+    "tags": {
+      "subject": "fox",
+      "category": "fox",
+      "attributes": [
+        "sitting",
+        "wooden deck",
+        "snowy"
+      ],
+      "caption": "A fox sitting on a snowy wooden deck",
+      "confidence": 0.9
+    }
+  },
+  {
+    "filename": "red-fox_6.jpg",
+    "status": "tagged",
+    "tags": {
+      "subject": "fox",
+      "category": "fox",
+      "attributes": [
+        "red",
+        "sitting",
+        "grass",
+        "large"
+      ],
+      "caption": "A red fox sitting in the grass",
+      "confidence": 0.9
+    }
+  },
+  {
+    "filename": "red-fox_7.jpg",
+    "status": "tagged",
+    "tags": {
+      "subject": "fox",
+      "category": "fox",
+      "attributes": [
+        "brown",
+        "sitting",
+        "grass",
+        "small"
+      ],
+      "caption": "Two foxes sitting in the grass",
+      "confidence": 0.9
+    }
+  },
+  {
+    "filename": "red-fox_8.jpg",
+    "status": "tagged",
+    "tags": {
+      "subject": "fox",
+      "category": "fox",
+      "attributes": [
+        "brown",
+        "sitting",
+        "grassy field",
+        "small"
+      ],
+      "caption": "Two foxes sitting in a grassy field",
+      "confidence": 0.9
+    }
+  },
+  {
+    "filename": "red-fox_9.jpg",
+    "status": "tagged",
+    "tags": {
+      "subject": "fox",
+      "category": "fox",
+      "attributes": [
+        "red",
+        "sitting",
+        "in hay",
+        "small"
+      ],
+      "caption": "A small red fox sitting in hay",
+      "confidence": 0.9
+    }
+  },
+  {
+    "filename": "wolf_1.jpg",
+    "status": "tagged",
+    "tags": {
+      "subject": "wolf",
+      "category": "wolf",
+      "attributes": [
+        "gray",
+        "standing",
+        "wooded area",
+        "large"
+      ],
+      "caption": "A gray wolf standing in a wooded area",
+      "confidence": 0.9
+    }
+  },
+  {
+    "filename": "wolf_10.jpg",
+    "status": "tagged",
+    "tags": {
+      "subject": "dog",
+      "category": "dog",
+      "attributes": [
+        "white",
+        "sitting",
+        "forest",
+        "large"
+      ],
+      "caption": "A white dog sitting in a forest",
+      "confidence": 0.9
+    }
+  },
+  {
+    "filename": "wolf_2.jpg",
+    "status": "tagged",
+    "tags": {
+      "subject": "wolf",
+      "category": "wolf",
+      "attributes": [
+        "gray",
+        "standing",
+        "outdoors",
+        "large"
+      ],
+      "caption": "A wolf standing in a grassy area",
+      "confidence": 0.9
+    }
+  },
+  {
+    "filename": "wolf_3.jpg",
+    "status": "tagged",
+    "tags": {
+      "subject": "wolf",
+      "category": "wolf",
+      "attributes": [
+        "gray",
+        "sitting",
+        "wooded",
+        "large"
+      ],
+      "caption": "A gray wolf sitting in a wooded area",
+      "confidence": 0.9
+    }
+  },
+  {
+    "filename": "wolf_4.jpg",
+    "status": "tagged",
+    "tags": {
+      "subject": "wolf",
+      "category": "wolf",
+      "attributes": [
+        "brown",
+        "standing",
+        "outdoors",
+        "large"
+      ],
+      "caption": "Two wolves standing on a dirt path",
+      "confidence": 0.9
+    }
+  },
+  {
+    "filename": "wolf_5.jpg",
+    "status": "tagged",
+    "tags": {
+      "subject": "wolf",
+      "category": "wolf",
+      "attributes": [
+        "gray",
+        "alert",
+        "outdoors",
+        "large"
+      ],
+      "caption": "A gray wolf standing alert in an outdoor setting.",
+      "confidence": 0.9
+    }
+  },
+  {
+    "filename": "wolf_6.jpg",
+    "status": "tagged",
+    "tags": {
+      "subject": "wolf",
+      "category": "wolf",
+      "attributes": [
+        "brown",
+        "standing",
+        "outdoors",
+        "large"
+      ],
+      "caption": "A wolf standing in a field",
+      "confidence": 0.9
+    }
+  },
+  {
+    "filename": "wolf_7.jpg",
+    "status": "tagged",
+    "tags": {
+      "subject": "wolf",
+      "category": "wolf",
+      "attributes": [
+        "brown",
+        "standing",
+        "wooded area",
+        "large"
+      ],
+      "caption": "Two wolves in a wooded area",
+      "confidence": 0.9
+    }
+  },
+  {
+    "filename": "wolf_8.jpg",
+    "status": "tagged",
+    "tags": {
+      "subject": "wolf",
+      "category": "wolf",
+      "attributes": [
+        "gray",
+        "standing",
+        "forest",
+        "large"
+      ],
+      "caption": "A gray wolf standing in a forest",
+      "confidence": 0.9
+    }
+  },
+  {
+    "filename": "wolf_9.jpg",
+    "status": "tagged",
+    "tags": {
+      "subject": "wolf",
+      "category": "wolf",
+      "attributes": [
+        "black",
+        "standing",
+        "indoors",
+        "large"
+      ],
+      "caption": "A black wolf standing indoors",
+      "confidence": 0.9
+    }
+  }
+]

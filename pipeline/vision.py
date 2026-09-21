@@ -14,17 +14,16 @@ class ImageTags(BaseModel):
     confidence: confloat(ge=0.0, le=1.0)
 
 
-PROMPT = """You are looking at a photo of an animal. Respond with ONLY a JSON object describing it — no other text before or after.
+PROMPT = """You are looking at a photo of an animal. Carefully observe THIS specific image, then respond with ONLY a JSON object describing what you actually see — no other text before or after.
 
-Use this exact format, filled in with your own real observations of THIS image (this is an example of the shape, not the answer):
+Required fields:
+- "subject": a short specific description of the animal you see (2-4 words)
+- "category": exactly one of: fox, wolf, dog, bear, deer
+- "attributes": a list of 2 to 4 short words describing what you observe in THIS image (color, pose, setting, size — NOT numbers)
+- "caption": one sentence describing what is actually happening in THIS image
+- "confidence": a number between 0.0 and 1.0
 
-{"subject": "gray wolf", "category": "wolf", "attributes": ["thick fur", "alert", "forest"], "caption": "A gray wolf standing among trees", "confidence": 0.9}
-
-Rules:
-- "category" must be exactly one of: fox, wolf, dog, bear, deer
-- "attributes" is a list of 2 to 4 short words describing what you actually see
-- "confidence" is a number between 0.0 and 1.0
-- Output ONLY the JSON object on one line. No explanation, no markdown, no extra text."""
+Base every field only on what you actually observe in this specific photo. Do not reuse wording from any other image. Output ONLY the JSON object on one line."""
 
 
 def extract_json(text: str) -> dict:
@@ -68,7 +67,6 @@ def tag_image(image_path: str, retry_with_error: str = None) -> Optional[ImageTa
         options={"num_predict": 300, "temperature": 0.1}
     )
     raw_text = response["message"]["content"]
-    print(f"  [debug] raw response: {raw_text[:300]}")
 
     try:
         data = extract_json(raw_text)
