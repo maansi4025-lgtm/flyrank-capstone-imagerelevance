@@ -98,10 +98,35 @@ def get_suggestion(post: dict, images: list[dict]) -> dict:
     }
 
 
+def force_candidate_test(post_id: str, forced_filename: str, images: list[dict], posts: list[dict]):
+    """Force a specific image as the only candidate, to directly test the guard
+    against a known mismatch — e.g. forcing a wolf photo onto a fox post."""
+    post = next(p for p in posts if p["id"] == post_id)
+    image = next(img for img in images if img["filename"] == forced_filename)
+
+    similarity = cosine_similarity(post["embedding"], image["embedding"])
+    result = guard_check(image, similarity, expected_category=post.get("expected_category"))
+
+    print(f"\n=== FORCED CANDIDATE TEST ===")
+    print(f"Post: \"{post['title']}\" (expects: {post['expected_category']})")
+    print(f"Forced candidate: {forced_filename} (actual category: {image['category']})")
+    print(f"Similarity: {similarity:.4f}")
+    print(f"Guard result: {'ACCEPTED' if result['accepted'] else 'REJECTED'}")
+    if result["reason"]:
+        print(f"Reason: {result['reason']}")
+
+
 if __name__ == "__main__":
     images, posts = load_data()
 
     for post in posts:
         result = get_suggestion(post, images)
         print(f"\n=== {post['title']} ===")
-        print(json.dumps(result, indent=2))
+        print(f"Result: {result['result']}", end="")
+        if result["result"] == "accepted":
+            print(f" -> {result['image']} (similarity {result['similarity']})")
+        else:
+            print(f" -> {result.get('reason')}")
+
+    # The centerpiece demo: force a wolf photo onto the fox post
+    force_candidate_test("post-1", "wolf_1.jpg", images, posts)
