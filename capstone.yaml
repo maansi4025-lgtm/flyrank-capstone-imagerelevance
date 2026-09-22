@@ -1,0 +1,24 @@
+run: |
+  cp .env.example .env
+  # (fill in real Pexels key in .env if regenerating corpus, not required to run the API)
+  python -m venv venv
+  venv\Scripts\activate
+  pip install -r requirements.txt
+  uvicorn api.main:app --reload
+
+seed: |
+  ollama pull llava
+  ollama pull all-minilm
+  python pipeline/batch_tag.py
+  python pipeline/embeddings.py
+
+test: |
+  python pipeline/eval.py
+
+base_url: http://127.0.0.1:8000
+
+endpoints:
+  - GET /posts
+  - GET /posts/{post_id}/suggestion
+  - POST /posts/{post_id}/review
+  - GET /reviews
